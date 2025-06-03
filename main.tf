@@ -8,6 +8,7 @@ resource "aws_iam_policy" "admin" {
         Effect = "Allow"
       }
     ]
+    Resource = "*"
   })
 }
 
